@@ -55677,7 +55677,7 @@ var HomePage = (function () {
         this.navCtrl = navCtrl;
         this.platform = platform;
         this.platformList = '';
-        this.isApp = false;
+        this.isApp = true;
         var platforms = this.platform.platforms();
         this.platformList = platforms.join(', ');
         if (this.platform.is('core') || this.platform.is('mobileweb')) {
